@@ -26,8 +26,8 @@ MAINTAINER James Turnbull "james@example.com"
 
 #COPY conf.d /etc/apache2/
 
-#LABEL version="1.0"
-#LABEL location="New York" type="Data Center" role="Web Server"
+LABEL version="1.0"
+LABEL location="New York" type="Data Center" role="Web Server"
 
 #ARG build
 #ARG webapp_user=user
